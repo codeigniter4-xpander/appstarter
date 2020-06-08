@@ -53,6 +53,9 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
 			'App'         => APPPATH,                // To ensure filters, etc still found,
 			APP_NAMESPACE => APPPATH,                // For custom namespace
 			'Config'      => APPPATH . 'Config',
+			'CI4Xpander' => ROOTPATH . 'vendor/codeigniter4-xpander/core/src',
+			'CI4Xpander_AdminLTE' => ROOTPATH . 'vendor/codeigniter4-xpander/adminlte/src',
+            'CI4Xpander_Dashboard' => ROOTPATH . 'vendor/codeigniter4-xpander/dashboard/src',
 		];
 
 		/**

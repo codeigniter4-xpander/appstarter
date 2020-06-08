@@ -10,6 +10,7 @@ class Filters extends BaseConfig
 		'csrf'     => \CodeIgniter\Filters\CSRF::class,
 		'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
 		'honeypot' => \CodeIgniter\Filters\Honeypot::class,
+		'ci4XpanderDashboardAuth' => \CI4Xpander_Dashboard\Filters\DashboardAuth::class
 	];
 
 	// Always applied before every request
