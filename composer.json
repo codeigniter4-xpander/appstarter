@@ -12,7 +12,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
 	"require": {
-		"php": ">=7.2",
+        "php": ">=7.2",
+        "oomphinc/composer-installers-extender": "^1.1",
         "codeigniter4/framework": "^4",
         "codeigniter4-xpander/dashboard": "dev-develop"
 	},
@@ -36,16 +37,14 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "../core"
-        },
-        {
-            "type": "path",
-            "url": "../adminlte"
-        },
-        {
-            "type": "path",
-            "url": "../dashboard"
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
-    ]
+    ],
+    "extra": {
+        "installer-types": ["npm-asset"],
+        "installer-paths": {
+            "public/assets/npm/{$name}/": ["type:npm-asset"]
+        }
+    }
 }
