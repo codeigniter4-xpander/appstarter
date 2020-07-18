@@ -20,6 +20,7 @@
 # APP
 #--------------------------------------------------------------------
 
+# app.domain = ''
 # app.baseURL = ''
 # app.forceGlobalSecureRequests = false
 
@@ -96,7 +97,12 @@
 # CI4Xpander
 #--------------------------------------------------------------------
 
-ci4xpander.site.title = 'CodeIgniter 4 Xpander'
-ci4xpander.site.name = 'CodeIgniter 4 Xpander'
-ci4xpander.site.logo.mini = 'CI4X'
-ci4xpander.site.logo.large = 'CI4Xpander'
+# ci4xpander.site.title = 'CodeIgniter 4 Xpander'
+# ci4xpander.site.name = 'CodeIgniter 4 Xpander'
+# ci4xpander.site.logo.mini = 'CI4X'
+# ci4xpander.site.logo.large = 'CI4Xpander'
+
+# ci4xpander.user.developer.first_password = '1234567890'
+# ci4xpander.user.developer.email = ''
+# ci4xpander.user.administrator.first_password = '1234567890'
+# ci4xpander.user.administrator.email = ''
