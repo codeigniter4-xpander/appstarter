@@ -97,12 +97,27 @@
 # CI4Xpander
 #--------------------------------------------------------------------
 
-# ci4xpander.site.title = 'CodeIgniter 4 Xpander'
-# ci4xpander.site.name = 'CodeIgniter 4 Xpander'
-# ci4xpander.site.logo.mini = 'CI4X'
-# ci4xpander.site.logo.large = 'CI4Xpander'
+ci4xpander.site.title = 'CodeIgniter 4 Xpander'
+ci4xpander.site.name = 'CodeIgniter 4 Xpander'
+ci4xpander.site.logo.mini = '<b>CI4X</b>'
+ci4xpander.site.logo.large = '<b>CI4Xpander</b>'
 
-# ci4xpander.user.developer.first_password = '1234567890'
-# ci4xpander.user.developer.email = ''
-# ci4xpander.user.administrator.first_password = '1234567890'
-# ci4xpander.user.administrator.email = ''
+ci4xpander.dashboard.password_hash_algo = 'default'
+ci4xpander.dashboard.user.system.email = 'system@yourdomain.com'
+ci4xpander.dashboard.user.developer.code = 'superman'
+ci4xpander.dashboard.user.developer.name = 'Superman'
+ci4xpander.dashboard.user.developer.email = 'superman@yourdomain.com'
+ci4xpander.dashboard.user.developer.first_password = '1234567890'
+ci4xpander.dashboard.user.administrator.code = 'administrator'
+ci4xpander.dashboard.user.administrator.name = 'Administrator'
+ci4xpander.dashboard.user.administrator.email = 'administrator@yourdomain.com'
+ci4xpander.dashboard.user.administrator.first_password = '1234567890'
+
+#--------------------------------------------------------------------
+# API
+#--------------------------------------------------------------------
+
+#api.alg = 'HS256'
+#api.kty = 'oct'
+#api.k = ''
+#api.use = 'sig'
